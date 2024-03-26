@@ -2,6 +2,13 @@
 
 ## Overview of the Analysis
 
+    Provide an overview that explains the purpose of this analysis. (5 points)
+The data we are analyzing is 
+
+Our goal was to analyze the loan data and train a model to predict whether which creiteria would be a high risk loan or low risk loan.
+
+
+    
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * Explain the purpose of the analysis.
@@ -12,13 +19,29 @@ In this section, describe the analysis you completed for the machine learning mo
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
+Using bulleted lists, describe the accuracy, precision, and recall scores of the machine learning model.
 
 * Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+    * 0 (healthy loan) class:
+        * Precision: 100%
+        * Recall: 99%
+        * F1-score: 100%
+    
+    * 1 (high-risk loan) class:
+        * Precision: 85%
+        * Recall: 91%
+        * F1-score: 88%
+        
+    * Overall: 
+        * Accuracy: 99%
+    
+    
+
 
 ## Summary
-
+Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning. (10 points)
+ 
+ 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 
 * Which one seems to perform best? How do you know it performs best?
