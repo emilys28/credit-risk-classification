@@ -18,9 +18,9 @@ To receive all points, you must:
 - Fit a logistic regression model by using the training data (X_train and y_train). (10 points)
 - Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model. (5 points)
 - Evaluate the model’s performance by doing the following:
-  -- Generate a confusion matrix. (5 points)
-  -- Generate a classification report. (5 points)
-  -- Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels? (5 points)
+    - Generate a confusion matrix. (5 points)
+    - Generate a classification report. (5 points)
+    - Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels? (5 points)
 
 ## Write a Credit Risk Analysis Report (20 points)
 To receive all points, you must:
