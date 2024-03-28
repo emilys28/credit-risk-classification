@@ -6,6 +6,41 @@ In this Challenge, you’ll use various techniques to train and evaluate a model
 # Author
 Emily L Sims
 
+## Overview of the Analysis
+
+The data we are analyzing details of loan circumstances. The categories include loan size, interest rate, borrower income, debt to income, number of accounts, derogatory marks, total debt, and loan status. Loan status categorizes each loan into a high-risk loan, declared as a 1 value, or a healthy loan, declared as 0. Our goal was to analyze the loan data and train a model to predict whether which criteria would be a high-risk loan or low risk loan.
+
+Data Sample:
+<img >   
+
+ 
+## Results
+* Machine Learning Model 1:
+    * 0 (healthy loan) class:
+        * Precision: 100%, the model is 100% accurate in positive predictions for healthy loans. 
+        * Recall: 99%, the model is 99% accurate in finding ALL positive instances. A lower recall means that the model may miss some positive instances, leading to false negatives.
+        * F1-score: 100%, the model has perfect precision and recall. 
+    
+    * 1 (high-risk loan) class:
+        * Precision: 85%, this model is only 85% accurate in positive predictions for unhealthy loans. A lower precision suggests that the model might also classify some instances as positive that are actually negative.
+        * Recall: 91%, the model is 91% accurate in finding ALL positive instances. 
+        * F1-score: 88%, the model has a high ability in precision and recall but is not perfect. 
+        
+    * Overall: 
+        * Accuracy: 99%, the model is over 99% accurate in its predictions. 
+    
+    
+    
+    Recall, also known as sensitivity or true positive rate, is the ratio of true positive predictions to the total number of actual positive instances in the data. It measures the model's ability to find all positive instances.
+
+
+## Summary
+ 
+ The logistic regression model performs well in its predictions, as demonstrated by the high accuracy score. However, there was some difference in the prediction performance between the two classes. While the model was extremely accurate predicting healthy loans, it was less accurate for the high-risk loan class.  
+ 
+ I would recommend the logistic regression model, as it has a high overall accuracy rate. However, I also believe it needs more data on high-risk loans to improve its ability to predict high risk loans. As the current stats indicate that the model may incorrectly label a loan as high risk or miss some high-risk ones.
+
+
 # Requirements
 ## Split the Data into Training and Testing Sets (30 points)
 To receive all points, you must:
