@@ -11,7 +11,7 @@ Emily L Sims
 The data we are analyzing details of loan circumstances. The categories include loan size, interest rate, borrower income, debt to income, number of accounts, derogatory marks, total debt, and loan status. Loan status categorizes each loan into a high-risk loan, declared as a 1 value, or a healthy loan, declared as 0. Our goal was to analyze the loan data and train a model to predict whether which criteria would be a high-risk loan or low risk loan.
 
 Data Sample:
-<img >   
+<img alt="Dataframe sample" url="img/loan_data_sample.png">
 
  
 ## Results
@@ -28,12 +28,11 @@ Data Sample:
         
     * Overall: 
         * Accuracy: 99%, the model is over 99% accurate in its predictions. 
-    
-    
-    
-    Recall, also known as sensitivity or true positive rate, is the ratio of true positive predictions to the total number of actual positive instances in the data. It measures the model's ability to find all positive instances.
+
+<img alt="Classification Report" src="img/classification_report.png">   
 
 
+    
 ## Summary
  
  The logistic regression model performs well in its predictions, as demonstrated by the high accuracy score. However, there was some difference in the prediction performance between the two classes. While the model was extremely accurate predicting healthy loans, it was less accurate for the high-risk loan class.  
