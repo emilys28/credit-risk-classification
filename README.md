@@ -11,7 +11,7 @@ Emily L Sims
 The data we are analyzing details of loan circumstances. The categories include loan size, interest rate, borrower income, debt to income, number of accounts, derogatory marks, total debt, and loan status. Loan status categorizes each loan into a high-risk loan, declared as a 1 value, or a healthy loan, declared as 0. Our goal was to analyze the loan data and train a model to predict whether which criteria would be a high-risk loan or low risk loan.
 
 Data Sample:
-<img alt="Dataframe sample" url="img/loan_data_sample.png">
+<img alt="Dataframe sample" src="img/loan_data_sample.png">
 
  
 ## Results
